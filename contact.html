@@ -13,6 +13,27 @@
   <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 
   <h3>Contact</h3>
-  
+  <form action="file://wsl%24/Ubuntu/home/shanti/development/code/phase1/phase-1-html-forms-lab/contact.html">
+    <div>
+      <label for="Full Name">Full Name:</label>
+      <input type="text" name="Full Name" placeholder="Enter Name" required>
+    </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="Enter email" required></div>
+  <div>
+    <label for="Phone Number">Phone Number:</label>
+    <input type="tel" name="Phone Number" placeholder="Enter Telephone">
+  </div>
+  <h3>Who is your Emergency Contact?</h3>
+  <textarea name="Emergency Contact"></textarea>
+  <h3>What is the best way to reach you</h3>
+  <input type="checkbox" name ="contact-1" value="email"/>Email<br/>
+  <input type ="checkbox" name ="contact-2" value="text"/>Text Message<br/>
+  <input type = "checkbox" name = "contact-3" value="Call"/>Call<br/>
+  <div>
+    <input type="submit" value="Add contact"/>
+  </div>
+</form>
 </body>
 </html>
